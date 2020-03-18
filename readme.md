@@ -15,7 +15,7 @@ lang: zn-ch
 ### 在`.md`文件中使用图片
 
 - 使用相对路径引入图片
-![relative path to import a img file](./assets/imgs/useByRelativepath.png)
+![relative path to import a img file](./docs/assets/imgs/useByRelativepath.png)
 
 - 使用alias引入图片,使用在`.vuepress/config.js`中对`configureWebpack(webpack配置对象)`中进行配置
 ![Alias  path to import a img file](~@imgs/beautify.png)
@@ -40,7 +40,9 @@ lang: zn-ch
 
 ![use public img file](/usePublicImg.png)
 
-## 自定义容器
+## MarkDown拓展
+
+###  自定义容器
 
 - 输入
 
@@ -80,3 +82,40 @@ lang: zn-ch
 ::: details
 这是一个详情块，在 IE / Edge 中不生效
 :::
+
+### 显示代码块的行号
+
+```js {4}
+
+let name = 'Mirror';
+
+function sayName(name){
+    console.log(name || 'lost name param')
+};
+
+sayName();
+
+```
+
+### 导入代码段(beta)
+
+- 输入
+
+```
+引入代码片段，高亮代码的2，3行
+
+<<< @/docs/assets/js/chunk.js {2,3}
+```
+
+- 输出
+
+<<< @/docs/assets/js/chunk.js {2,3}
+
+::: tip
+由于代码段的导入将在 webpack 编译之前执行，因此你无法使用 webpack 中的路径别名，此处的 @ 默认值是 process.cwd()。 process.cwd() 方法返回 Node.js 进程的当前工作目录。
+:::
+
+
+## 在MarkDown中使用Vue
+
+<Panel></Panel>
