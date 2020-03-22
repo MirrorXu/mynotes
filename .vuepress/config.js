@@ -8,6 +8,7 @@ module.exports = {
         dest: path.resolve(__dirname, '../dist'),
         nav: [
             { text: 'HOME', link: '/' },
+            { text: 'Vue', link: '/Vue/' },
             { text: 'ECMASCRIPT', link: '/ECMASCRIPT/' },
             { text: 'VuePress', link: '/VUEPRESS/' },
         ],
@@ -17,10 +18,17 @@ module.exports = {
             ],
             '/ECMASCRIPT/': [
                 '',
-                'Object'
+                'js_type',
+                'Object',
+                'ergodicAPIs',
+                'call_apply_bind'
             ],
             '/VUEPRESS/': [
                 ''
+            ],
+            '/Vue/': [
+                '',
+                'vuerouter'
             ]
         }
     },
