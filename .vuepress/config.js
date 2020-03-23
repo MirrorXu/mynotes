@@ -18,6 +18,7 @@ module.exports = {
             ],
             '/ECMASCRIPT/': [
                 '',
+                'isNaN',
                 'js_type',
                 'Object',
                 'ergodicAPIs',
