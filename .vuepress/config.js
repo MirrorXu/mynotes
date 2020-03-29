@@ -6,13 +6,20 @@ module.exports = {
         logo: '/logo.png',
         displayAllHeaders: false,
         dest: path.resolve(__dirname, '../dist'),
+        // 导航栏配置
         nav: [
             { text: 'HOME', link: '/' },
-            { text: 'Vue', link: '/Vue/' },
+            { text: 'JS设计模式', link: '/JsDesignPattern/' },
             { text: 'ECMASCRIPT', link: '/ECMASCRIPT/' },
+            { text: 'Vue', link: '/Vue/' },
             { text: 'VuePress', link: '/VUEPRESS/' },
         ],
+        // 侧边栏配置
         sidebar: {
+            '/JsDesignPattern/': [
+                '创建型-原型模式',
+                '结构型-装饰器模式'
+            ],
             '/usevuepress/': [
                 ''
             ],
@@ -29,6 +36,7 @@ module.exports = {
             ],
             '/Vue/': [
                 '',
+                'vue',
                 'vuerouter'
             ]
         }
@@ -54,3 +62,4 @@ module.exports = {
         }
     }
 }
+
