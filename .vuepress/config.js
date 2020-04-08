@@ -8,11 +8,10 @@ module.exports = {
         dest: path.resolve(__dirname, '../dist'),
         // 导航栏配置
         nav: [
-            { text: 'HOME', link: '/' },
-            { text: 'JS设计模式', link: '/JsDesignPattern/' },
-            { text: 'ECMASCRIPT', link: '/ECMASCRIPT/' },
+            { text: 'ES', link: '/ECMASCRIPT/' },
             { text: 'Vue', link: '/Vue/' },
             { text: 'VuePress', link: '/VUEPRESS/' },
+            { text: 'JS设计模式', link: '/JsDesignPattern/' },
         ],
         // 侧边栏配置
         sidebar: {
@@ -29,7 +28,10 @@ module.exports = {
                 'js_type',
                 'Object',
                 'ergodicAPIs',
-                'call_apply_bind'
+                'call_apply_bind',
+                'getter_setter',
+                'proxy',
+                'try_catch_finally'
             ],
             '/VUEPRESS/': [
                 ''
