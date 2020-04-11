@@ -14,6 +14,6 @@ title: debounce thorttle 防抖、节流
 
 <<< @/playground/js/debounce_throttle/throttle.js
 
-## 参考
+## 参考GitHub-每日一道面试题中的总结
 
 [GitHub/Daily-Interview-Question/什么是防抖和节流？有什么区别？如何实现](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/5)
