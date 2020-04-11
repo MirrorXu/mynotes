@@ -13,3 +13,7 @@ title: debounce thorttle 防抖、节流
 > 规定在一个单位时间内，只能触发一次函数。如果这个单位时间内触发多次函数，只有一次生效。
 
 <<< @/playground/js/debounce_throttle/throttle.js
+
+## 参考
+
+[GitHub/Daily-Interview-Question/什么是防抖和节流？有什么区别？如何实现](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/5)
