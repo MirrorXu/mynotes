@@ -30,6 +30,7 @@ module.exports = {
                 'ergodicAPIs',
                 'call_apply_bind',
                 'getter_setter',
+                'debounce_throttle',
                 'proxy',
                 'try_catch_finally'
             ],
